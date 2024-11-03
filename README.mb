@@ -1,0 +1,12 @@
+**
+Named exports :- we use them in file when we require to export more than one component.
+   eg:- export component(name of the component) 
+        import {component} from "path"
+
+default export -: we use these in side file to export one component of the file.
+    eg-: export default component 
+         import component from "path"
+
+There are two types of rendering web Application:
+* Client side Routing:- while rendering between the components we will not make any api calls and 
+* Server Side Routing
